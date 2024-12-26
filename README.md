@@ -24,3 +24,18 @@ This project allows users to control various functionalities (like volume contro
 * MediaPipe
 * pySerial
 * An Arduino board with a suitable circuit setup
+## Setup:
+1. Connect the Arduino to your computer via USB.
+2. Install the required Python libraries using pip:
+ * pip install opencv-python mediapipe pyserial
+3. Upload the necessary Arduino code to your Arduino board.
+4. Run the Python script to start controlling the system with hand gestures.
+## Commands:
+* l: Start the finger counting program.
+* k: Stop the red LED function.
+* s: Start the finger pinching gesture program for volume control.
+* a: Stop the buzzer volume function.
+* t: Read temperature from the Arduino.
+* r: Continue (no action).
+* b: Read light sensor data from the Arduino.
+* v: Continue (no action).
